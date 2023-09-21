@@ -1,0 +1,169 @@
+/* styles.css */
+/* *{
+    padding: 0;
+    margin: 0;
+      margin-bottom: 600px;
+}*/
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #9aa0bc;
+    background: url(blue-concrete-textured-wall.jpg);
+    line-height: 1.6em;
+
+}
+
+h1{
+    
+    text-align:center;
+    font-size: 250%;
+    padding: -2%;
+    color: #000000;
+    margin-bottom: -70px;
+   
+}
+
+h1{
+    
+    text-align:center;
+    font-size: 250%;
+    padding: -6%;
+    color: #ffffff;
+    margin-bottom: -75px;
+    margin-top: 45px;
+   
+}
+
+h2{
+    
+    line-height: 1.6em;
+    font-size: 150%;
+    text-align:left;
+    color: #3305ff;
+}
+.box-a{
+    background-color: #6495ED;
+    background: transparent;
+    color: #151515;
+    
+    /* Border */
+    
+    border: 2px solid rgb(0, 0, 0);
+    margin-bottom: 900px;
+    border-radius: 15px;
+    padding: -1px;
+   
+
+    /* Padding*/
+    padding: 10px;
+
+    /* Margin */
+    margin-top: -300px;
+    margin: 190px ;
+    margin-bottom: -170px;
+    margin-left: 300px;
+    margin-right: 200px;
+
+
+}
+
+.box-b{
+
+    background-color: #6495ED;
+    background: transparent;
+    color: #151515;
+      /* Border */
+    
+      border: 2px solid rgb(0, 0, 0);
+      margin-bottom: 1000px;
+      border-radius: 15px;
+      
+     
+  
+      /* Padding*/
+      padding: 10px;
+  
+      /* Margin */
+      margin-top: -300px;
+      margin: 190px ;
+      margin-bottom: -170px;
+      margin-left: 300px;
+    margin-right: 200px;
+}
+
+
+
+.box-c{
+ 
+    background-color: #09327e;
+    background: transparent;
+    color: #151515;
+      /* Border */
+    
+      border: 2px solid rgb(0, 0, 0);
+      margin-bottom: 1000px;
+      border-radius: 15px;
+    
+      
+     
+  
+      /* Padding*/
+      padding: 10px;
+  
+      /* Margin */
+      margin-top: -300px;
+      margin: 190px ;
+      margin-bottom: 10px;
+      margin-left: 300px;
+    margin-right: 200px;
+}
+
+
+
+
+
+h4 {
+    font-size: 17px;
+    line-height: 0.1em;
+   
+}
+
+p {
+    font-size: 15px;
+    color: #000000;
+    text-overflow: clip;
+    margin-left: -50;
+}
+
+img {
+    max-width: 120px;
+    border-radius: 1px;
+    float:right;
+    border: 3px blue;
+    margin-top: -100px;
+    margin-right: 80px;
+    margin-bottom: auto;
+   
+   
+}
+
+
+.chat-button {
+    text-align:left;
+}
+
+#chatNowBtn {
+    background-color: #0a56a8;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 9px;
+    border-color: #000000;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#chatNowBtn:hover {
+    background-color: #0056b3;
+}
+

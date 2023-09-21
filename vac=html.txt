@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacancy</title>
+    <link rel="stylesheet" href="vacancy.css">
+</head>
+<body>
+<div class="comapany-intro">
+   </div><h1>Vacancy Wall</h1>
+
+    <div class="Container">
+        <div class="box-a">
+        <div class="img"></div>
+        <h2>Position</h2>
+           <p>Welcome to TechSolutions Inc.  Company Name is a leading provider of [products or services].</p> 
+            
+        <br>
+        <div class="apply-button">
+            <button id="applyBtn">Apply</button>
+        </div>
+    </div> </div>
+        <div class="Container">
+            <div class="box-b">
+            <h2>Position</h2>
+                <p>Welcome to TechSolutions Inc.  Company Name is a leading provider of [products or services]. 
+                 <p>
+          
+            <br><div class="apply-button">
+                <button id="applyBtn">Apply</button>
+            </div>
+        </div>
+            <div class="Container">
+                <div class="box-c">
+                <h2>Position</h2>
+                    <p>Welcome to TechSolutions Inc. Company Name is a leading provider of [products or services]. </p> 
+                     
+               
+      
+               
+                <br><div class="apply-button">
+                    <button id="applyBtn">Apply</button>
+                </div>
+            </div>
+
+            <div class="Container">
+                <div class="box-d">
+                <h2>Position</h2>
+                    <p>Welcome to TechSolutions Inc.  Company Name is a leading provider of [products or services]. 
+                     <p>
+               
+              
+                <br><div class="apply-button">
+                    <button id="applyBtn">Apply</button>
+                </div>
+            </div>
+
+
+
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 500px;
+  margin-right: 10px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+  /* *{
+    padding: 0;
+    margin: 0;
+      margin-bottom: 600px;
+}*/
+
+
+
+body {
+  font-family: sans-serif;
+  font-size: larger;
+}
+
+
+h1 {
+  text-align: center;
+}
+
+ 
+@keyframes rotate_border{
+  0%{
+      transform: rotate(0deg);
+  }
+  100%{
+      transform: rotate(360deg);
+  }
+}
+
+form {
+  margin-top: 200px;
+  margin-bottom: 100px;
+  margin-left: 550px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="file"]
+
+
+textarea {
+  width: 30%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+input[type="introduction"],
+
+textarea {
+  width: 30%;
+  padding: 40px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+#login_button{
+  position: relative;
+  width: 200px;
+  height: 40px;
+  transition: 1s;
+  margin-top: 60px;
+  margin-left: 8px;
+
+}
+#login_button a{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  z-index: 10;
+  cursor: pointer;
+  font-size: 22px;
+  letter-spacing: 2px;
+  border: 1px solid #00ccff;
+  border-radius: 50px;
+  background-color: #0c1022;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -20px;
+  margin-bottom: 90px
+}
+  a {
+    color: #ffffff;
+    margin-top: 50;
+  }
+  .fotter {
+    margin-top: -100px;
+    margin-left: 500px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+  
+  }
+
+
+  .fotter h4{
+    margin-bottom: 200px;
+    color: #000;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 8px;
+  }
+
+
+
+  -----------------------------------------------------------------------------------------------------------
+  <!DOCTYPE html>
+<html>
+<head>
+  <title> Register as  Company</title>
+  <link rel="stylesheet" href="register-company.css">
+
+ 
+</head>
+<body>
+
+</div><h1>Register as  Company</h1>
+  <form action="/register" method="post" enctype="multipart/form-data">
+    <input type="text" name="name" placeholder="Company name:">
+    <br><input type="Email" name="Email" placeholder=" Email:">
+    <br><input type="Password" name="Password" placeholder=" password:">
+    <br><input type="introduction" name="introduction" placeholder="introduction: ">
+    <br><br><input type="file" name="profile_image" id="profileImage">
+  
+    <div class="button_group" id="login_button">
+      <a>Register</a>
+    </div>
+  </form>
+  
+    <br>
+    <div class="fotter">
+      <h4>Login</h4>
+  </div>
+
+
+
+      <script src="register-com.js"></script>
+</body>
+</html>
+
+       444444444444444444444444444444444444
+
+
+       
+const photoInput = document.querySelector('input[type="file"]');
+const img = document.createElement('img');
+ 
+img.src = URL.createObjectURL(file);
+document.querySelector('.register-form').appendChild(img);
+
+form.addEventListener('submit', function(event) {
+  event.preventDefault();
+  
+
+  photoInput.addEventListener('change', function(e) {
+    const file = e.target.files[0];
+  
+    // Validate the file
+    if (!file.type.match('image/.*')) {
+      alert('Please upload an image file.');
+      return;
+    }
+  });
+    
+  const form = document.querySelector('form');
+  const companyName = form.company_name.value;
+  
+  // Validate the email address
+  if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(email)) {
+    alert('Please enter a valid email address.');
+    return;
+  }
+  const Email = form.Email.value;
+  const Password = form.Password.value;
+  const introduction = form.introduction.value;
+  const file = form.profileImage.value;
+
+  // Submit the form
+  form.submit();
+});
+
+

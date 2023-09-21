@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="comapany-intro">
+   </div><h1>Company</h1>
+
+    <div class="Container">
+        <div class="box-a">
+        <h2>ABC Company</h2>
+            <h4>Introduction </h4><p>Welcome to TechSolutions Inc.  Company Name is a leading provider of [products or services]. 
+             <p>
+       
+      <img src="images (1).jpeg" alt="Company 1">
+        <br>
+        <div class="chat-button">
+            <button id="chatNowBtn">Chat Now</button>
+        </div>
+    </div> </div>
+        <div class="Container">
+            <div class="box-b">
+            <h2>ABC Company</h2>
+                <h4>Introduction </h4><p>Welcome to TechSolutions Inc.  Company Name is a leading provider of [products or services]. 
+                 <p>
+           
+          <img src="images (1).jpeg" alt="Company 1">
+            
+            <br><div class="chat-button">
+                <button id="chatNowBtn">Chat Now</button>
+            </div>
+        </div>
+            <div class="Container">
+                <div class="box-b">
+                <h2>ABC Company</h2>
+                    <h4>Introduction </h4><p>Welcome to TechSolutions Inc.  Company Name is a leading provider of [products or services]. 
+                     <p>
+               
+              <img src="images (1).jpeg" alt="Company 1">
+               
+                <br><div class="chat-button">
+                    <button id="chatNowBtn">Chat Now</button>
+                </div>
+            </div>
+
+            <div class="Container">
+                <div class="box-b">
+                <h2>ABC Company</h2>
+                    <h4>Introduction </h4><p>Welcome to TechSolutions Inc.  Company Name is a leading provider of [products or services]. 
+                     <p>
+               
+              <img src="images (1).jpeg" alt="Company 1">
+              
+                <br><div class="chat-button">
+                    <button id="chatNowBtn">Chat Now</button>
+                </div>
+            </div>
+
+       
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* styles.css */
+/* *{
+    padding: 0;
+    margin: 0;
+}*/
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff9f9;
+    line-height: 1.6em;
+
+}
+
+h1{
+    
+    text-align:center;
+    font-size: 250%;
+    padding: -2%;
+}
+
+h2{
+    
+    line-height: 1.6em;
+    font-size: 150%;
+    text-align: center;
+}
+.box-a{
+    background-color: #6b658e;
+    color: #151515;
+    
+    /* Border */
+    
+    border: 2px solid rgb(0, 0, 0);
+    margin-bottom: 1000px;
+    border-radius: 15px;
+    padding: -1px;
+   
+
+    /* Padding*/
+    padding: 10px;
+
+    /* Margin */
+    margin-top: 100px;
+    margin: 200px ;
+
+}
+
+.container{
+    width: 80%;
+    margin: -10%;
+}
+
+.box-b{
+
+    background-color: #6b658e;
+    color: #151515;
+      /* Border */
+    
+      border: 2px solid rgb(0, 0, 0);
+      margin-bottom: 1000px;
+      border-radius: 15px;
+      padding: -1px;
+     
+  
+      /* Padding*/
+      padding: 10px;
+  
+      /* Margin */
+      margin-top: 100px;
+      margin: 200px ;
+}
+
+
+.container{
+    width: 80%;
+    margin: 20%;
+}
+.box-c{
+    background-color: #6b658e;
+    color: #151515;
+    
+    /* Border */
+    
+    border: 2px solid rgb(0, 0, 0);
+    margin-bottom: 30px;
+    border-radius: 15px;
+    padding: 10px;
+
+    /* Padding*/
+    padding: 10px;
+
+    /* Margin */
+    margin-top: 60px;
+    margin: 170px ;
+
+}
+
+.container{
+    width: 80%;
+    margin: 20%;
+}
+
+
+.box-d{
+    background-color: #6b658e;
+    color: #151515;
+    
+    /* Border */
+    
+    border: 2px solid rgb(0, 0, 0);
+    margin-bottom: 30px;
+    border-radius: 15px;
+    padding: 10px;
+
+    /* Padding*/
+    padding: 10px;
+
+    /* Margin */
+    margin-top: 60px;
+    margin: 170px ;
+
+}
+
+.container{
+    width: 80%;
+    margin: 20%;
+}
+
+.img {
+	height: 10%;
+	width: 100px;
+	position: relative;
+	border: 10px solid white;
+    position: absolute;
+    z-index: -1;
+
+}
+
+
+h4 {
+    font-size: 17px;
+    line-height: 0.1em;
+}
+
+p {
+    font-size: 15px;
+    color: #000000;
+    text-overflow: clip;
+}
+
+.chat-button {
+    text-align:left;
+}
+
+#chatNowBtn {
+    background-color: #0a56a8;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#chatNowBtn:hover {
+    background-color: #0056b3;
+}
